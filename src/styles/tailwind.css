@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'RiformaLL';
+  src: url('https://cdn.prod.website-files.com/65afd77c3480e56821c57ffd/66fd75b9f163aa2b95b90964_RiformaLLWeb-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@theme {
+    --color-count-blue: #3333FF;
+    --color-count-pink: #FF3366;
+    --color-count-grey: #F0F0F0;
+    --color-count-purple-150: #DEDDFE;
+    --color-count-black: #242A2C;
+    --font-sans: "Mulish";
+    --font-mono: "Azeret Mono";
+
+
+    --breakpoint-tablet: 478px;
+    --breakpoint-desktop: 991px;
+}
+
+@layer base {
+    h1, h2, h3, h4 { font-family: 'RiformaLL'; }
+}
